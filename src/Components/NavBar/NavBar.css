@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+.mainNavBar {
+  display: flex;
+  /* opacity: 1;
+  background: rgb(11, 11, 11, 0.45); */
+  height: 75px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navBarName {
+  font-family: "Nunito", sans-serif;
+  font-size: 25px !important;
+  color: black !important;
+}
+.mainNavBar {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    -2px 21px 2px 0px rgba(0, 0, 0, 0.01);
+  box-shadow: 0px 10px 13px -7px #000000, -2px 21px 2px 0px rgba(0, 0, 0, 0.01);
+}
+.mainNavBar img {
+  width: 200px;
+}
+.navBarWords {
+  font-size: 16px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+.navBarWords:hover {
+  text-decoration: underline pink;
+}
+a {
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+}
+.active {
+  color: rgb(184, 184, 184);
+  font-size: 20px;
+}
+
+@media all and (max-width: 769px) {
+  .navBarWords {
+    font-size: 12px;
+    font-family: "Nanum Gothic", sans-serif;
+  }
+}
+@media all and (max-width: 429px) {
+  .navBarWords {
+    font-size: 9px;
+    font-family: "Nanum Gothic", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .active {
+    font-size: 13px;
+  }
+}
+@media all and (max-width: 376px) {
+  .navBarWords {
+    margin: 3px;
+  }
+  .mainNavBar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

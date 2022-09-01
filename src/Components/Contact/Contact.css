@@ -1,0 +1,8 @@
+.mainContactDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contactDiv {
+  width: 85%;
+}

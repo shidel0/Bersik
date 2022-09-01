@@ -1,0 +1,52 @@
+.mainContainer {
+  margin-top: 35px;
+}
+.addComments {
+  width: 100%;
+  padding: 4px;
+  border: 1px solid rgb(209, 208, 208);
+  display: flex;
+  justify-content: center;
+}
+.inputs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+input {
+  width: 80%;
+}
+
+.sentCommets {
+  display: flex;
+}
+.com-1 {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  border: 1px solid rgb(209, 208, 208);
+}
+.com-2 {
+  width: 10%;
+}
+
+.container15 {
+  width: 90%;
+  margin-top: 5px;
+  margin-left: 20px;
+  padding: 2px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+@media all and (max-width: 376px) {
+  .container15 {
+    margin: 0px;
+    width: 89%;
+  }
+  .addComments {
+    width: 98%;
+  }
+}

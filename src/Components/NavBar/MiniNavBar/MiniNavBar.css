@@ -1,0 +1,36 @@
+.mainMiniNavBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 31px;
+  border-bottom: 1px solid rgb(232, 229, 229);
+}
+
+.mininavbar {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.callBtn:hover {
+  color: pink;
+}
+
+@media all and (max-width: 768px) {
+  .dispNone {
+    font-size: 11px;
+  }
+  .mininavbar {
+    width: 96%;
+  }
+  .logOut {
+    font-size: 11px;
+  }
+}
+@media all and (max-width: 426px) {
+  .dispNone {
+    display: none;
+  }
+}

@@ -1,0 +1,11 @@
+/* ======== */
+.searchInput {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.input-search {
+  height: 35px;
+  width: 60%;
+}
